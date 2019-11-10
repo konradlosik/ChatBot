@@ -1,0 +1,15 @@
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/MyBot1
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/MyBot1.deps.json
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/MyBot1.runtimeconfig.json
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/MyBot1.runtimeconfig.dev.json
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/MyBot1.dll
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/MyBot1.pdb
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/obj/Debug/netcoreapp3.0/MyBot1.csprojAssemblyReference.cache
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/obj/Debug/netcoreapp3.0/MyBot1.AssemblyInfoInputs.cache
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/obj/Debug/netcoreapp3.0/MyBot1.AssemblyInfo.cs
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/obj/Debug/netcoreapp3.0/MyBot1.dll
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/obj/Debug/netcoreapp3.0/MyBot1.pdb
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/Bazam.Http.dll
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/MargieBot.dll
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/obj/Debug/netcoreapp3.0/MyBot1.csproj.CopyComplete

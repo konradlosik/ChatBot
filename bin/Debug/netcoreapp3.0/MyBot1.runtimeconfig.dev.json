@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/kamsoftwizmobilna/.dotnet/store/|arch|/|tfm|",
+      "/Users/kamsoftwizmobilna/.nuget/packages"
+    ]
+  }
+}
