@@ -10,15 +10,16 @@ namespace MyBot
             _slackKey = slackKey;
             Console.Write(".");
             _bot = new Bot();
-            _bot.Connect(_slackKey);
             _bot.ConnectionStatusChanged += ConnectToSlackIfDisconnected;
-            Console.Write(".");
+            _bot.Connect(_slackKey);
+            Console.Write(". stat="+_bot.IsConnected);
         }
         protected Bot _bot;
         private string _slackKey;
         //private readonly ILog _log = LogManager.GetCurrentClassLogger();
         private void ConnectToSlackIfDisconnected(bool isConnected)
         {
+            Console.Write(_bot.IsConnected+",");
             if (!isConnected)
             {
                 Console.Write(",");
