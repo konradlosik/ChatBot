@@ -13,7 +13,7 @@ namespace MyBot
             
             new CoffeBot();
 
-            Console.Write(".%");
+            Console.Write(".&");
             Console.Read();
         }
     }

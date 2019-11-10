@@ -4,7 +4,8 @@ namespace MyBot
     class CoffeBot:SlackBot
     {
         #region constructors
-        public CoffeBot():base("xoxb-816926727939-830491017047-i3DBQ1iwXOPf6fDIuFIfrb8j")
+        public CoffeBot():base("xoxb-816926727939-830491017047-SlbEXAn3f4yakRbeBHL4MRLj")
+            //"xoxb-816926727939-830491017047-i3DBQ1iwXOPf6fDIuFIfrb8j")
         {
             _bot.RespondsTo("kawa").With("ze śmietanką czy bez").With("espresso raz").With("zapraszam na filiżankę");
             _bot.Responders.Add(new SimpleResponder());
