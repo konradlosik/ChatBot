@@ -1,0 +1,5 @@
+namespace MyBot
+{
+    class WeatherResponder
+    {}
+}
