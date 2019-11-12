@@ -8,13 +8,12 @@ namespace MyBot
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.Write(".");
-            
+            Console.WriteLine("Example using html parser and bot...");
+            LogHelper.Write(".");
+            new HtmlParser();
             new CoffeBot();
-
-            Console.Write(".&");
-            Console.Read();
+            LogHelper.Write(".&");
+            Console.Read(); 
         }
     }
 }

@@ -23,17 +23,24 @@ namespace MyBot
         public BotMessage GetResponse(ResponseContext context)
         {
             BotMessage response = new BotMessage();
-            string city = context.Message.Text.Replace("pogoda ", "");
-            string url = $"http://api.openweathermap.org/data/2.5/weather?q={city}&mode=json&units=metric&APPID={_apiKey}";
-            response.Text = "Szukales pogody w miescie: " + city;
-            string pogoda = String.Empty;
-            using (HttpClient client = new HttpClient())
+            try
             {
-                string json = RetrieveJsonAsync(url, client).Result;
-                dynamic jsonData = JObject.Parse(json);
-                pogoda = $"Temperatura w tym mieście to {jsonData.main.temp} stopni Celsjusza";
+                string city = context.Message.Text.Replace("pogoda ", "");
+                string url = $"http://api.openweathermap.org/data/2.5/weather?q={city}&mode=json&units=metric&APPID={_apiKey}";
+                response.Text = "Szukales pogody w miescie: " + city;
+                string pogoda = String.Empty;
+                using (HttpClient client = new HttpClient())
+                {
+                    string json = RetrieveJsonAsync(url, client).Result;
+                    dynamic jsonData = JObject.Parse(json);
+                    pogoda = $"Temperatura w tym mieście to {jsonData.main.temp} stopni Celsjusza";
+                }
+                response.Text = response.Text + Environment.NewLine + pogoda;
             }
-            response.Text = response.Text + Environment.NewLine + pogoda;
+            catch(Exception ex)
+            {
+                response.Text = "Błąd "+ex.Message;
+            }
             return response;
         }
         #endregion

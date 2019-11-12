@@ -13,3 +13,5 @@
 /Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/MargieBot.dll
 /Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/Newtonsoft.Json.dll
 /Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/obj/Debug/netcoreapp3.0/MyBot1.csproj.CopyComplete
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/HtmlAgilityPack.dll
+/Users/kamsoftwizmobilna/NetProjects/bots/MyBot1/bin/Debug/netcoreapp3.0/System.Xml.XPath.XmlDocument.dll

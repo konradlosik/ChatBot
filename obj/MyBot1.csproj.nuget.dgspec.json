@@ -36,6 +36,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.16, )"
+            },
             "MargieBot": {
               "target": "Package",
               "version": "[2.0.5, )"
